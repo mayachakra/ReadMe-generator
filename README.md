@@ -12,6 +12,6 @@
   It utilizes file writing, arrays for the questions, function to initialize and generate the markdown as well as functions to create the license section
   ## License
     [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-    This is licensed unded the  license.
+    This is licensed under the [MIT License](https://opensource.org/licenses/MIT) license.
     
 

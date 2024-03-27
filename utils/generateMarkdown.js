@@ -13,7 +13,7 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
     const licenselinks ={
-        'MIT License':'[MIT License](https://opensource.org/licenses/MIT)',
+        'MIT':'[MIT License](https://opensource.org/licenses/MIT)',
         'Apache-2.0':'[Apache License 2.0](https://opensource.org/licenses/Apache-2.0)'
     };
 
@@ -30,7 +30,7 @@ function renderLicenseSection(license) {
     const link= renderLicenseLink(license)
     return `## License
     ${badge}
-    This is licensed unded the ${link} license.
+    This is licensed under the ${link} license.
     `;
 }
 
